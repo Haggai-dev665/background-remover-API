@@ -201,7 +201,9 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
+# Test files
+test_image.png
+*.tmp
+
+# Model cache
+.u2net/
